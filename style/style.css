@@ -49,10 +49,17 @@ ul {
 .miss {
     background-image: url('../img/cross.svg'); 
     background-size: 20px;
+    animation: error 300ms
 }
 
 .dead {
     background-image: url('../img/skull.svg'); 
+}
+
+@keyframes error {
+  from {}
+  50% {background-color: rgb(230, 63, 63);}
+  to {}
 }
 
 a {

@@ -30,7 +30,6 @@ const show = {
     this.changeClass(elem, 'miss');
   },
   dead() {
-
   },
   changeClass(elem, value) {
     elem.className = value;
