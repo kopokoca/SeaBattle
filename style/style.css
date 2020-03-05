@@ -49,7 +49,7 @@ ul {
 .miss {
     background-image: url('../img/cross.svg'); 
     background-size: 20px;
-    animation: error 300ms
+    animation: error 250ms;
 }
 
 .dead {
