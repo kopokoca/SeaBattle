@@ -71,6 +71,11 @@ const fire = (event) => {
     return;
   }
 
+  if (game.shipCount < 1) {
+    console.log("Игра окончена. Начните новую");
+    return;
+  }
+
   show.miss(target);
   play.updateData = 'shot';
 
